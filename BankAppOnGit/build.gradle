@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+
+repositories{
+	maven{
+	url "http://10.109.32.183:8081/nexus/content/groups/public"
+     }
+}
+
+dependencies{
+	testCompile 'junit:junit:4.4'
+	compile 'org.mockito:mockito-all:1.8.4'
+}
+
